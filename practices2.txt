@@ -23,6 +23,8 @@ System.out.println("The sum is: " + sum);
         System.out.println("The product is: " + product);
         System.out.println("The quotient is: " + quotient);
 
+scanner.close(); // Close the scanner
+
 }
 
 }
