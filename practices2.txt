@@ -6,6 +6,12 @@ public class Calculator {
  public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object
 
+System.out.print("Enter the first number: ");
+        double num1 = scanner.nextDouble(); // Read first number
+        
+        System.out.print("Enter the second number: ");
+        double num2 = scanner.nextDouble(); // Read second number
+
 }
 
 }
