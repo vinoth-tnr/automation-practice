@@ -2,5 +2,13 @@ java
 
 public class AddTwoNumbers 
 {
+										public static void main(String[] args) {
+        int number1 = 10;
+        int number2 = 20;
+        // Add the two numbers
+        int sum = number1 + number2; 
 
+        // Print the result
+        System.out.println("The sum is: " + sum); 
+    }
 }
